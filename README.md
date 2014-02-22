@@ -27,8 +27,10 @@ Features
 -Provide suggested RSS site in category method.
 -Managed your own favourite RSS list.
 
-Readme
+Download
 ========
+
+http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=feednews&DownloadId=804461&FileTime=130375520131900000&Build=20865
 
 Before running the application, make sure you had installed the Microsoft .Net Framework 4.0 or above. 
 http://www.microsoft.com/en-us/download/confirmation.aspx?id=17851
