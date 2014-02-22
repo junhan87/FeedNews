@@ -1,0 +1,14 @@
+﻿<Window x:Class="FeedNews.InProgressScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InProgress" Height="130" Width="300" WindowStartupLocation="CenterScreen" WindowStyle="None" 
+        Background="Black" ShowInTaskbar="False"
+        Opacity="0.85" AllowsTransparency="True" Topmost="True">
+    <Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <Image Margin="10,0,0,0" Source="/Icon/loading.png" Width="100" Height="100"/>
+            <TextBlock Margin="10" Text="Loading" FontSize="48" Foreground="White" VerticalAlignment="Center"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>

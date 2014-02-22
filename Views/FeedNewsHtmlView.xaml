@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="FeedNews.Views.FeedNewsHtmlView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="768" d:DesignWidth="809">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="23"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF404040">
+        <ScrollViewer      
+            Width="Auto"
+            Height="Auto"
+            Margin="0,0,10,0"
+            Template="{DynamicResource ScrollViewerControlTemplate}" >
+            <TextBlock 
+                        Name="NewsHtmlText"
+                        Style="{StaticResource textStyle}" 
+                        Text="{Binding htmlContent}"/>
+        </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="1" Background="#FF454545"/>
+    </Grid>
+</UserControl>
